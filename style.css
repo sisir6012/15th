@@ -1,0 +1,346 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+/*-start-app & game-*/
+.game{
+	background-image: url(image/coding-background-texture.jpg);
+}
+
+.overly{
+	background: linear-gradient(#474ab6 0%,#9271f6 100%);
+	padding: 100px 0px;
+	overflow: hidden;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.col-1{
+	width: 50%;
+	float: left;
+}
+
+.col-1 img{
+/*	width: 100%;*/
+	width: 350px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+.col-1 h2{
+	font-size: 42px;
+	font-weight: 700;
+	color: white;
+	line-height: 1.3;
+}
+
+.col-1 p{
+	font-size: 13px;
+	font-weight: 300;
+	color: #d4ccff;
+	line-height: 2;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.btn{
+	background: #09e1c0;
+	padding: 15px 30px;
+	color: white;
+	border-radius: 28px;
+	text-decoration: none;
+	border: 2px solid #09e1c0;
+	transition: 1s all;
+}
+
+.btn:hover{
+	background: #09e1c0;
+	padding: 15px 45px 15px 30px;
+	color: white;
+}
+/*-end-app & game-*/
+
+
+/*--start-course---*/
+.course{
+	overflow: hidden;
+	padding: 50px 0px;
+}
+.course-1{
+	width: 40%;
+	float: left;
+	margin-top: 50px;
+}
+.course-2{
+	width: 58%;
+	float: left;
+	box-shadow: 0px 0px 7px 7px #ece9e9;
+	padding: 10px;
+	margin-top: 50px;
+}
+.course-1 h1{
+	font-size: 36px;
+	color: #7272ff;
+	font-weight: 700px;
+}
+.course-1 h4{
+	font-size: 17px;
+	color: #000;
+	font-weight: 700px;
+	margin-top: 25px;
+}
+.course-1 p{
+	font-size: 17px;
+	color: #8585bd;
+	font-weight: 700px;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	line-height: 1.9;
+}
+hr{
+	width: 30px;
+	height: 3px;
+	margin-top: 35px;
+	
+}
+.course-1 .btn{
+	background: #7863E0;
+	padding: 15px 30px;
+	color: white;
+	border-radius: 28px;
+	text-decoration: none;
+	border: 2px solid #7863E0;
+	transition: 1s all;
+}
+
+.course-1 .btn:hover{
+	background: #7863E0;
+	padding: 15px 45px 15px 30px;
+	color: white;
+}
+
+
+
+
+
+
+
+.web{
+	width: 49%;
+	float: left;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.web-1{
+	border-right: none;
+}
+.web a{
+	text-decoration: none;
+	color: black;
+}
+
+.web img{
+	float: left;
+	width: 60px;
+	margin-right: 20px;
+	height: 61px;
+	margin-top: 3px;
+}
+.web h5{
+	font-size: 14px;
+	color: black;
+	margin-bottom: 14px; 
+}
+.web p{
+	font-size: 14px;
+	color: #8585bd;
+	margin-top: 13px;
+	line-height: 1.4;
+    margin-left: 80px;
+	margin-bottom: 30px;
+}
+/*--end-course---*/
+
+
+/* start-expert */
+
+.expert{
+	background-image: url(image/coding-background-texture.jpg);
+}
+
+.overly{
+	background: linear-gradient(#474ab6 0%,#9271f6 100%);
+	padding: 100px 0px;
+	overflow: hidden;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+.col-2-1{
+	width: 50%;
+	float: right;
+}
+.col-2-1 img{
+	width: 450px;
+	height: auto;
+	padding: 20px;
+
+}
+.col-2-1 h1{
+	font-size: 36px;
+	color: #fff;
+	font-weight: 700px;
+	margin-top: 25px;
+	margin-top: 100px;
+}
+.col-2-1 p{
+	font-size: 16px;
+	color: #d4ccff;
+	font-weight: 700px;
+	margin-top: 25px;
+	margin-bottom: 60px;
+	line-height: 1.9;
+}
+.col-2-1 hr{
+	width: 40px;
+	height: 3px;
+	margin-top: 35px;
+	
+}
+/* end-expert */
+
+
+
+/* start-learn */
+.learn{
+	padding: 80px 0px;
+	overflow: hidden;
+}
+.col-3-1{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+
+}
+.col-5 img{
+	width: 80px !important;
+	height: auto;
+}
+.col-3-1 img{
+	width: 450px;
+	height: auto;
+}
+.col-3-1 p{
+	font-size: 16px;
+	color: #8585bd;
+	font-weight: 700px;
+	margin-top: 25px;
+	margin-bottom: 60px;
+	line-height: 1.9;
+}
+.col-3-1 h4{
+	font-size: 17px;
+	color: #000;
+	font-weight: 700px;
+	margin-top: 25px;
+}
+.col-3-1 h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: #7272ff;
+    line-height: 1.5em;
+}
+
+}
+/* end-learn */
+
+
+/* ----start--portfolio */
+.portfolio{
+	overflow: hidden;
+	padding: 80px 0px;
+}
+
+/* ---end---portfolio */
+
+/* --start--achieve */
+.container{
+	width: 80%;
+	margin: auto;
+}
+.col-3-1{
+	margin-top: 20px;
+}
+/* --end--achieve */
+
+/*--responsiv-start-app & game-*/
+@media(max-width: 980px){
+	.col-1{
+	width: 100%;
+	float: none;
+}
+	.col-1 img{
+	width: 300px;
+	margin-top: 35px;
+}
+.col-1 h2{
+	font-size: 25px;
+}
+.col-1 p{
+	margin-bottom: 60px;
+	
+}
+}
+/*--responsiv--end-app & game-*/
+
+
+/*--responsive-start-course---*/
+@media(max-width: 980px){
+	.course-1{
+	width: 100%;
+	float: none;
+}
+	.course-2{
+	width: 100%;
+	float: none;
+	margin-top: 60px;
+}
+	.web{
+	width: 100%;
+	float: none;
+	margin-top: 30px;
+}
+}
+/*--responsive-end-course---*/
+
+/* responsiv-start-expert */
+@media(max-width: 960px){
+	.col-2-1{
+		width: 100%;
+		float: none;
+	}
+	.col-2-1 img{
+		width: 300px;
+	}
+
+}
+/* responsiv-end-expert */
+
+
+
+
+
+
+
+
+/* responsiv-end-expert */
